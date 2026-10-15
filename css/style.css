@@ -18,7 +18,7 @@ body {
 }
 
 /* 2. Header & Typography Styles (Descendant & ID Selectors) */
-header {
+#site-header { 
     background-color: #ffffff;
     border-bottom: 2px solid #eaeaea;
     padding: 20px;
@@ -26,7 +26,7 @@ header {
     border-radius: 6px;
 }
 
-header h1 {
+#site-header h1 {
     color: #2c3e50;
     font-size: 24px;
     margin-bottom: 8px;
@@ -150,7 +150,7 @@ tr:hover {
         grid-template-columns: 1fr;
     }
     
-    
+
     body {
         padding: 10px;
     }
